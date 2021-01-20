@@ -22,8 +22,8 @@ PusherRevealRemote.prototype.prev = function() {
 PusherRevealRemote.prototype.next = function() {
   this._slideChannel.trigger('client-slide-next', {});
 };
-PusherRevealRemote.prototype.overview = function() {
-  console.log('lmn');
+PusherRevealRemote.prototype.toggleOverview = function() {
+  // console.log('lmn');
   this._slideChannel.trigger('client-slide-toggleOverview', {});
 };
 
